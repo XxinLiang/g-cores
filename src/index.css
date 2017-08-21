@@ -1,0 +1,29 @@
+html {
+    line-height: 1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.g_ct {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media (min-width: 768px) {
+    .g_ct {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .g_ct {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .g_ct {
+        width: 1030px;
+    }
+}

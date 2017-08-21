@@ -1,0 +1,20 @@
+.g_hd {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+    background-color: rgba(255, 255, 255, .95);
+}
+
+.logo {
+    float: left;
+    padding: 23.5px 15px;
+    font-size: 22px;
+    line-height: 33px;
+    height: 80px;
+}
+.logo > img {
+    display: block;
+    max-height: 28px;
+}
