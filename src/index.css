@@ -2,8 +2,41 @@ html {
     line-height: 1;
 }
 
+body {
+    font-family: 'Open Sans',
+    'Helvetica Neue',
+    Arial,
+    'Hiragino Sans GB',
+    'Microsoft YaHei',
+    'WenQuanYi Micro Hei',
+    sans-serif;
+    font-size: 14px;
+    color: #686868;
+}
+
 * {
     box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fix:before,
+.fix:after {
+    content: "";
+    display: table;
+}
+.fix:after {
+    clear: both;
 }
 
 .g_ct {

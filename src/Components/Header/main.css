@@ -18,3 +18,29 @@
     display: block;
     max-height: 28px;
 }
+@media (min-width: 992px) {
+    .logo {
+        padding-left: 0;
+    }
+}
+
+.nav {
+    float: right;
+}
+.nav li {
+    float: left
+}
+.nav a {
+    display: block;
+    padding: 10px 15px;
+    line-height: 23px;
+    color: #999;
+}
+@media (min-width: 992px) {
+    .nav a {
+        padding: 28.5px 15px;
+    }
+}
+.nav a:hover {
+    color: #333;
+}
