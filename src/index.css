@@ -30,6 +30,16 @@ a {
     text-decoration: none;
 }
 
+input {
+    outline: none;
+}
+input::-webkit-input-placeholder,
+input:-ms-input-placeholder,
+input::-moz-placeholder {
+    color: #ddd;
+}
+
+
 .fix:before,
 .fix:after {
     content: "";
