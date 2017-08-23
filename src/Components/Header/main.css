@@ -1,4 +1,4 @@
-.g_hd {
+:global(.g_hd) {
     position: fixed;
     top: 0;
     left: 0;

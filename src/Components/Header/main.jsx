@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import './main.css'
+import style from './main.css'
 import logoImg from './logo.png'
 
 class Header extends Component {
@@ -8,16 +8,16 @@ class Header extends Component {
         return (
             <header className="g_hd">
                 <div className="g_ct fix">
-                    <div className="hd_logo fix">
-                        <Link to="/" className="logo">
+                    <div className={`${style.hd_logo} fix`}>
+                        <Link to="/" className={style.logo}>
                             <img src={logoImg} alt="" />
                         </Link>
                     </div>
-                    <div className="hd_nav">
-                        <div className="search">
+                    <div className={style.hd_nav}>
+                        <div className={style.search}>
                             <input type="text" placeholder="Search"/>
                         </div>
-                        <nav className="nav">
+                        <nav className={style.nav}>
                             <ul className="fix">
                                 <li><Link to="/news">新闻</Link></li>
                                 <li><Link to="/articles">文章</Link></li>
